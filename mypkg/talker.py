@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 import rclpy                     #ROS2のクライアントのためのライブラリ
 from rclpy.node import Node      #ノードを実装するためのNodeクラス（クラスは第10回で）
 from std_msgs.msg import Int16   #通信の型（16ビットの符号付き整数）
